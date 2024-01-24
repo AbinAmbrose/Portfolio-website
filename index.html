@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio of Abin Ambrose</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8aa909737c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li> 
+                <i class="fa-solid fa-xmark"onclick="closemenu()"></i>      
+            </ul>
+            <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'am <span>Abin Ambrose</span> <br> From Kerala, India</h1>
+        </div>
+    </div>
+</div>
+
+<!-- ---------About------ -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> A versatile and imaginative creative designer driven by a relentless pursuit of visual excellence. With a boundless enthusiasm for transforming ideas into captivating visuals, I bring a unique blend of artistic flair and strategic thinking to every project.I'm a passionate designer with a mission to create delightful and intuitive digital experiences. With a strong foundation in design principles and a keen eye for detail, I specialize in translating complex ideas into user-friendly designs that captivate and engage.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                        <li><span>Graphic Designing</span><br>Designing Posters and Brochures</li>
+                        <li><span>Animation</span><br>Making 2d/3d Animation Videos</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>B.A Animation and Visual Effects</span><br>Yeldo Mar Baselios College, Muvattpuzha, Kerala</li>
+                        <li><span>Higher Secondary Education</span><br>St.Goretti H.S.S Punalur, Kerala</li>
+                        <li><span>Higher School Education</span><br>St.Goretti H.S Punalur, Kerala</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------SERVICES----------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-display"></i>
+                <h2>UI/UX Design</h2>
+                <p> Embaracing UI/UX in crafting seamless experiences, keeping up with efficency and elegance.</p>               
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Graphic Design</h2>
+                <p> Convoey complex ideas, data, or instructions is a visually appealing and easily undestandable manner.</p>                
+            </div>
+            <div>
+                <i class="fa-solid fa-film"></i>
+                <h2>Animation</h2>
+                <p>Create visually appealing and captivating content to embark on a journey beyond the canvas.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------Portfolio---------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" >
+                <div class="layer">
+                    <h3>Time Trove</h3>
+                    <p>The pinnacle of sophistication in the realm of luxury timepieces, presents an unparalleled e-commerce app that epitomizes elegance and functionality. Meticulously crafted with a user-centric design philosophy</p>
+                    <a href="https://www.behance.net/gallery/185853035/Time-Trove"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" >
+                <div class="layer">
+                    <h3>Medwell Hospital Branding</h3>
+                    <p>Branding is the process of creating a distinct identity for a business in the minds of your target audience and the general population. At its core, branding consists of a company's name and logo, visual identity design, mission, values, and tone of voice.1</p>
+                    <a href="https://www.behance.net/gallery/184305513/Medwell-Hospital-Branding"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" >
+                <div class="layer">
+                    <h3>Social Media Poster</h3>
+                    <p>Social media poster is an effective tool to target the potential audience and provide an easy way to demonstrate your content. A person can easily draft and post the content on different social sites and use it as a social media marketing strategy.</p>
+                    <a href="https://www.behance.net/abinambrose1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://www.behance.net/abinambrose1"class="btn">See More</a>
+    </div>
+</div>
+
+<!-------------Contact---------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>abinambrosepunalur@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9207391136</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/abin.ambrose.92/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/abin._ambrose/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/abin-ambrose-284603238/?originalSubdomain=in"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Resume Of Abin Ambrose.pdf"download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Abin Ambrose </p>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+     }
+     
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwEvA1EjFGYBCJjdhpItrmx688jh9qUBPJeP_2qdczxxXmO9GEttxRobnwmuA80Wj-KcQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+<Script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</Script>
+</body>
+</html>
